@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+  --black: #2d2e2e; 
+  --dark-green:#3a4f39;
+  --dark-green-light:#395539; 
+  --grey:#ababab; 
+  --light-grey:#f6f6f6; 
+  --white:#ffffff; 
+  --umbra:#A0CD9E; 
+  --cta-backround-img: url('https://link.tenxbase.com/cta-background')
+  
+}
+.meniu{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--cta-backround-img);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  }
+  .h1-titlu{
+    font-family: "Inter", sans-serif; 
+    font-weight: 600; 
+    color: var(--white);
+    font-weight: 600px;
+    font-size: 50px;
+    line-height: 60.51px;
+    text-align: center;
+    gap: 32px;
+  }
+  .text-paragraf{
+    font-family: "Inter", sans-serif; 
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--white);
+    gap: 32px;
+  }
+  .input{
+    display: flex;
+    flex-direction: row;
+    font-family: "Inter", sans-serif; 
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--light-grey);
+  }
+  .input-email{
+    width: 511px;
+    height: 56px;
+    padding: 16px;
+    padding-bottom: 16px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: none;
+    gap: 32px;
+  }
+  .text-paragraf2{
+    font-family: "Inter", sans-serif; 
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--white);
+    gap: 32px;
+  }
+  .buton{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    font-weight: 400px; 
+    line-height:21.78px;
+    text-align: center;
+  }
+  .btn{
+    width: 254px;
+    height: 88px;
+    padding: 17px;
+    padding-bottom: 17px;
+    padding-left: 30px;
+    padding-left: 30px;
+    border-radius:  0px, 4px, 4px, 0px;
+    border: none;
+    background-color: var(--dark-green);
+    color: var(--white);
+    font-size: 18px;
+    font-family: "Inter", sans-serif; 
+  }
+  body{
+    margin-left: 0px;
+  }

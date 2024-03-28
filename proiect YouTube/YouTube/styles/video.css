@@ -1,0 +1,116 @@
+/* Aspectul imaginilor de thumbnail */
+.thumbnail {
+  /* Latime de 100% */
+  width: 100%;
+}
+
+/* Titlul video-ului */
+.video-title {
+  /* Eliminarea marginii de sus */
+  margin-top: 0;
+  /* Dimensiunea fontului */
+  font-size: 14px;
+  /* Grosimea fontului */
+  font-weight: 500;
+  /* Inaltimea liniei */
+  line-height: 20px;
+  /* Spatiu de la marginea de jos */
+  margin-bottom: 10px;
+}
+
+/* Grila informatiilor despre video */
+.video-info-grid {
+  /* Afisarea grila */
+  display: grid;
+  /* Coloanele grilei */
+  grid-template-columns: 50px 1fr;
+}
+
+/* Fotografia de profil */
+.profile-picture {
+  /* Latime */
+  width: 36px;
+  /* Raza colturilor */
+  border-radius: 50px;
+}
+
+/* Randul thumbnail-ului */
+.thumbnail-row {
+  /* Spatiu de la marginea de jos */
+  margin-bottom: 8px;
+  /* Pozitie relativa */
+  position: relative;
+}
+
+/* Autorul video-ului si statistici */
+.video-author,
+.video-stats {
+  /* Dimensiunea fontului */
+  font-size: 12px;
+  /* Culoarea textului */
+  color: rgb(96, 96, 96);
+}
+
+/* Autorul video-ului */
+.video-author {
+  /* Spatiu de la marginea de jos */
+  margin-bottom: 4px;
+}
+
+/* Grila de videoclipuri */
+.video-grid {
+  /* Afisarea grilei */
+  display: grid;
+  /* Coloanele grilei */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Spatiul intre coloane */
+  column-gap: 16px;
+  /* Spatiul intre randuri */
+  row-gap: 40px;
+}
+
+/* Media query pentru dimensiuni mai mici de 750px */
+@media (max-width: 750px) {
+  .video-grid {
+    /* Coloanele grilei */
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Media query pentru dimensiuni intre 751px si 999px */
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    /* Coloanele grilei */
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Media query pentru dimensiuni mai mari de 1000px */
+@media (min-width: 1000px) {
+  .video-grid {
+    /* Coloanele grilei */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* Timpul videoclipului */
+.video-time {
+  /* Dimensiunea fontului */
+  font-size: 12px;
+  /* Grosimea fontului */
+  font-weight: 500;
+  /* Padding */
+  padding: 4px;
+  /* Raza colturilor */
+  border-radius: 2px;
+  /* Culoarea de fundal */
+  background-color: black;
+  /* Culoarea textului */
+  color: white;
+  /* Pozitie absoluta */
+  position: absolute;
+  /* Spatiu de la marginea de jos */
+  bottom: 8px;
+  /* Spatiu de la marginea din dreapta */
+  right: 5px;
+}

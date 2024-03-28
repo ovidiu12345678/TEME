@@ -1,0 +1,41 @@
+.titlu {
+  color: blue;
+  text-align: center;
+}
+.culoare-text {
+  color: cornflowerblue;
+  text-decoration: rgb(215, 239, 250);
+  font-weight: bold;
+  font-size: 20px;
+}
+.aventura-color {
+  color: rgb(57, 180, 57);
+}
+.buton1 {
+  background-color: blueviolet;
+  margin: 6px;
+  padding: 6px;
+  border: 1px;
+  border-radius: 9px;
+}
+.buton2 {
+  background-color: rgb(43, 141, 226);
+  margin: 6px;
+  padding: 6px;
+  border: 1px;
+  border-radius: 9px;
+}
+.culoare-text-btn1 {
+  color: red;
+  font-weight: bold;
+}
+.culoare-text-btn2 {
+  color: rgb(46, 215, 187);
+  font-weight: bold;
+}
+.buton1:hover {
+  background-color: yellowgreen;
+}
+.buton2:hover {
+  background-color: rgb(218, 51, 51);
+}

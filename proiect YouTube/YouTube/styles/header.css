@@ -1,0 +1,271 @@
+/* Stilurile pentru antet */
+.header {
+  /* Inaltimea */
+  height: 55px;
+  /* Afiseaza flexibil */
+  display: flex;
+  /* Directia flexibila */
+  flex-direction: row;
+  /* Justificare intre */
+  justify-content: space-between;
+  /* Pozitie fixa */
+  position: fixed;
+  /* Sus */
+  top: 0;
+  /* Stanga */
+  left: 0;
+  /* Dreapta */
+  right: 0;
+  /* Indicele Z */
+  z-index: 100;
+  /* Culoarea de fundal */
+  background-color: white;
+  /* Latimea marginii de jos */
+  border-bottom-width: 1px;
+  /* Stilul marginii de jos */
+  border-bottom-style: solid;
+  /* Culoarea marginii de jos */
+  border-bottom-color: rgb(228, 228, 228);
+}
+
+/* Sectiunea stanga */
+.left-section {
+  /* Afiseaza flexibil */
+  display: flex;
+  /* Aliniaza item-urile pe centru */
+  align-items: center;
+}
+
+/* Meniul hamburger */
+.hamburger-menu {
+  /* Inaltimea */
+  height: 24px;
+  /* Margin-left */
+  margin-left: 24px;
+  /* Margin-right */
+  margin-right: 24px;
+}
+
+/* Logo-ul YouTube */
+.youtube-logo {
+  /* Inaltimea */
+  height: 20px;
+}
+
+/* Sectiunea din mijloc */
+.middle-section {
+  /* Flexibil */
+  flex: 1;
+  /* Margin-left */
+  margin-left: 70px;
+  /* Margin-right */
+  margin-right: 35px;
+  /* Latimea maxima */
+  max-width: 500px;
+  /* Afiseaza flexibil */
+  display: flex;
+  /* Aliniaza item-urile pe centru */
+  align-items: center;
+}
+
+/* Bara de cautare */
+.search-bar {
+  /* Flexibil */
+  flex: 1;
+  /* Inaltimea */
+  height: 36px;
+  /* Padding-left */
+  padding-left: 10px;
+  /* Dimensiunea fontului */
+  font-size: 16px;
+  /* Border */
+  border: 1px solid rgb(192, 192, 192);
+  /* Raza marginii */
+  border-radius: 2px;
+  /* Umbra cutiei */
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  /* Latimea */
+  width: 0;
+}
+
+/* Placeholder-ul pentru bara de cautare */
+.search-bar::placeholder {
+  /* Dimensiunea fontului */
+  font-size: 16px;
+}
+
+/* Butonul de cautare */
+.search-button {
+  /* Inaltimea */
+  height: 40px;
+  /* Latimea */
+  width: 66px;
+  /* Culoarea de fundal */
+  background-color: rgb(240, 240, 240);
+  /* Latimea marginii */
+  border-width: 1px;
+  /* Stilul marginii */
+  border-style: solid;
+  /* Culoarea marginii */
+  border-color: rgb(192, 192, 192);
+  /* Margin-left */
+  margin-left: -1px;
+  /* Margin-right */
+  margin-right: 10px;
+}
+
+/* Stilurile pentru butonul de cautare, butonul de cautare vocala si containerul de iconite de incarcare */
+.search-button,
+.voice-search-button,
+.upload-icon-container {
+  /* Afiseaza flexibil */
+  display: flex;
+  /* Justifica item-urile pe centru */
+  justify-content: center;
+  /* Aliniaza item-urile pe centru */
+  align-items: center;
+  /* Pozitie */
+  position: relative;
+}
+
+/* Tooltip-ul pentru butonul de cautare, butonul de cautare vocala si containerul de iconite de incarcare */
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip {
+  /* Pozitie */
+  position: absolute;
+  /* Culoarea de fundal */
+  background-color: gray;
+  /* Culoarea textului */
+  color: white;
+  /* Padding-top */
+  padding-top: 4px;
+  /* Padding-bottom */
+  padding-bottom: 4px;
+  /* Padding-left */
+  padding-left: 8px;
+  /* Padding-right */
+  padding-right: 8px;
+  /* Raza marginii */
+  border-radius: 2px;
+  /* Dimensiunea fontului */
+  font-size: 12px;
+  /* Jos */
+  bottom: -30px;
+  /* Opacitate */
+  opacity: 0;
+  /* Tranzitie */
+  transition: opacity 0.15s;
+  /* Evenimente pointer */
+  pointer-events: none;
+  /* Spatiu alb */
+  white-space: nowrap;
+}
+
+/* Afisarea tooltip-ului la hover */
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip {
+  /* Opacitate */
+  opacity: 1;
+}
+
+/* Iconita de cautare */
+.search-icon {
+  /* Inaltimea */
+  height: 25px;
+}
+
+/* Butonul de cautare vocala */
+.voice-search-button {
+  /* Inaltimea */
+  height: 40px;
+  /* Latimea */
+  width: 40px;
+  /* Raza marginii */
+  border-radius: 20px;
+  /* Border */
+  border: none;
+  /* Culoarea de fundal */
+  background-color: rgb(245, 245, 245);
+}
+
+/* Iconita de cautare vocala */
+.voice-search-icon {
+  /* Inaltimea */
+  height: 24px;
+}
+
+/* Sectiunea din dreapta */
+.right-section {
+  /* Latimea */
+  width: 180px;
+  /* Margin-right */
+  margin-right: 20px;
+  /* Afiseaza flexibil */
+  display: flex;
+  /* Aliniaza item-urile pe centru */
+  align-items: center;
+  /* Justifica item-urile pe spatiul liber */
+  justify-content: space-between;
+  /* Redimensioneaza flexibil */
+  flex-shrink: 0;
+}
+
+/* Iconita de incarcare */
+.upload-icon {
+  /* Inaltimea */
+  height: 24px;
+}
+
+/* Iconita aplicatiilor YouTube */
+.youtube-apps-icon {
+  /* Inaltimea */
+  height: 24px
+}
+
+/* Iconita de notificari */
+.notifications-icon {
+  /* Inaltimea */
+  height: 24px;
+}
+
+/* Containerul pentru iconita de notificari */
+.notifications-icon-container {
+  /* Pozitie */
+  position: relative;
+}
+
+/* Numarul de notificari */
+.notifications-count {
+  /* Pozitie */
+  position: absolute;
+  /* Sus */
+  top: -2px;
+  /* Dreapta */
+  right: -5px;
+  /* Culoarea de fundal */
+  background-color: rgb(200, 0, 0);
+  /* Culoarea textului */
+  color: white;
+  /* Dimensiunea fontului */
+  font-size: 11px;
+  /* Padding-left */
+  padding-left: 5px;
+  /* Padding-right */
+  padding-right: 5px;
+  /* Padding-top */
+  padding-top: 2px;
+  /* Padding-bottom */
+  padding-bottom: 2px;
+  /* Raza marginii */
+  border-radius: 10px;
+}
+
+/* Imaginea utilizatorului curent */
+.current-user-picture {
+  /* Inaltimea */
+  height: 32px;
+  /* Raza marginii */
+  border-radius: 16px;
+}

@@ -1,0 +1,11 @@
+.text-paragraf {
+  display: inline-block; 
+  vertical-align: middle; 
+}
+
+.buton-yes,
+.buton-no {
+  display: inline-block;
+  vertical-align: middle; 
+  width: 70px;
+}

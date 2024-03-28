@@ -1,0 +1,33 @@
+.container {
+  width: 400px;
+  height: 150px;
+  border: 2px solid rgb(8, 143, 197);
+  padding: 20px;
+  box-sizing: border-box; 
+ 
+}
+.paragraf{
+font-weight: bold;
+margin-top: 59px;
+}
+.btn-yes{
+font-weight: bold;
+}
+.btn-no{
+font-weight: bold;
+}
+.panou{
+  width: 400px;
+  height: 150px;
+  background-color: rgb(65, 60, 60);
+  padding: 20px;
+  box-sizing: border-box; 
+  margin-top: 85px;
+}
+.titlu{
+  color: rgb(250, 250, 254); 
+  
+}
+.paragraf1{
+  color: rgb(163, 161, 161);
+}

@@ -1,0 +1,21 @@
+.img-google{
+  display: block;
+  margin-left: 630px;
+  margin-top: 200px;
+  max-height: 85px;
+}
+.bara-cautare{
+  display: block;
+  margin-left: 490px;
+  margin-top: 35px;
+  width: 510px;
+  padding: 16px;
+  border-radius: 36px;
+  background-color: white;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0,0, 0.3);
+  outline: none;
+}
+.bara-cautare:hover{
+  box-shadow: 2px 2px 4px rgba(0, 0,0, 0.4);
+}

@@ -1,0 +1,57 @@
+.link-amazon{
+  color: rgb(0, 113, 113);
+  font-weight: bold;
+  font-size: 22px;
+}
+.link-amazon:hover{
+  color: brown;
+}
+.style-titlu{
+  color: black;
+  font-weight: bold;
+  font-size: 34px;
+}
+.style-paragraf1{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: 25px;
+}
+.style-paragraf2{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.style-buton-cart{
+  background-color: rgb(255, 216, 20);
+  font-weight: bold;
+  color: black;
+  border-radius: 17px;
+  border: none;
+  height: 36px;
+  width: 126px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.style-buton-cart:hover{
+  opacity: 0.8;
+}
+.style-buton-cart:active{
+  opacity: 1;
+}
+.style-buton-buy:hover{
+  opacity: 0.8;
+}
+.style-buton-buy:active{
+  opacity: 1;
+}
+.style-buton-buy{
+  background-color: rgb(255, 164, 28);
+  font-weight: bold;
+  color: black;
+  border-radius: 17px;
+  border: none;
+  height: 36px;
+  width: 126px;
+  cursor: pointer;
+  margin-right: 15px;
+}

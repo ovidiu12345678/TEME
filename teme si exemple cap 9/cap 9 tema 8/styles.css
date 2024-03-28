@@ -1,0 +1,53 @@
+div {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.btn-google {
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.btn-google-cautare {
+  margin-right: 10px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.btn-google:hover{
+  background-color: rgb(223, 213, 213);
+}
+.btn-google-cautare:hover{
+  background-color: rgb(223, 213, 213);
+}

@@ -1,0 +1,55 @@
+/* Bara laterala */
+.sidebar {
+  /* Pozitie fixa */
+  position: fixed;
+  /* Stanga */
+  left: 0;
+  /* Jos */
+  bottom: 0;
+  /* Sus (distanta fata de marginea de sus a paginii) */
+  top: 55px;
+  /* Culoarea de fundal */
+  background-color: white;
+  /* Latime */
+  width: 72px;
+  /* Indicele de adancime */
+  z-index: 200;
+  /* Padding-ul de sus */
+  padding-top: 5px;
+}
+
+/* Linkurile din bara laterala */
+.sidebar-link {
+  /* Inaltime */
+  height: 74px;
+  /* Afisare flexibila */
+  display: flex;
+  /* Justificare centrata pe axa orizontala */
+  justify-content: center;
+  /* Aliniere centrata pe axa verticala */
+  align-items: center;
+  /* Directia coloanei */
+  flex-direction: column;
+  /* Cursor */
+  cursor: pointer;
+}
+
+/* Stilul la hover pentru linkurile din bara laterala */
+.sidebar-link:hover {
+  /* Culoarea de fundal la hover */
+  background-color: rgb(235, 235, 235);
+}
+
+/* Imaginile din linkurile din bara laterala */
+.sidebar-link img {
+  /* Inaltime */
+  height: 24px;
+  /* Spatiu de la marginea de jos */
+  margin-bottom: 4px;
+}
+
+/* Textul din linkurile din bara laterala */
+.sidebar-link div {
+  /* Dimensiunea fontului */
+  font-size: 10px;
+}
